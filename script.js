@@ -4,8 +4,6 @@ let messageElement = document.querySelector("#message");
 
 let submitButton = document.querySelector("#submit-button");
 submitButton.addEventListener("click", function (e) {
-  e.preventDefault();
-
   let emailValue = emailElement.value;
   let messageValue = messageElement.value;
 
